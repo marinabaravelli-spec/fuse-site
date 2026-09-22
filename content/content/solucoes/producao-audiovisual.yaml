@@ -1,0 +1,61 @@
+name: Produção Audiovisual
+order: 3
+summary: Vídeos, fotografia, podcasts, motion e cobertura de eventos planejados para fortalecer a marca e cumprir uma função na jornada do cliente.
+pillarSummary: Criamos vídeos, fotografias, podcasts, motion e coberturas com narrativa, qualidade e função de negócio.
+linkLabel: Conhecer Produção Audiovisual
+seo:
+  title: Produtora Audiovisual para Empresas | Fuse
+  description: Vídeos institucionais, comerciais, fotografia, podcasts, motion e eventos com estratégia, narrativa e função de negócio.
+title: Audiovisual com função de negócio.
+intro:
+- Um vídeo pode apresentar uma empresa, explicar um produto, fortalecer uma marca, apoiar vendas, registrar um evento ou criar autoridade.
+- O formato muda. O objetivo precisa estar claro.
+- A Fuse desenvolve produções audiovisuais com estratégia, narrativa e planejamento de desdobramentos para que cada captação gere o máximo de valor possível.
+sections:
+- discriminant: offerings
+  value:
+    heading: O que produzimos
+    items:
+    - title: Vídeos institucionais
+      text: Filmes para apresentar a empresa, sua visão, sua estrutura, sua cultura e a forma como cria valor.
+    - title: Vídeos comerciais e de produto
+      text: Conteúdos para lançamentos, campanhas, demonstrações, apresentações e apoio à venda.
+    - title: Conteúdo para redes sociais
+      text: Reels, entrevistas, séries, vídeos curtos, bastidores e cortes pensados para os canais da marca.
+    - title: Fotografia
+      text: Retratos, equipes, ambientes, produtos, eventos e imagens para comunicação institucional e comercial.
+    - title: Podcasts e videocasts
+      text: Planejamento, identidade, gravação, direção, edição e desdobramento para construir autoridade e relacionamento.
+    - title: Motion design e animação
+      text: Animações para explicar processos, apresentar dados, demonstrar conceitos ou tornar soluções complexas mais compreensíveis.
+    - title: Cobertura de eventos
+      text: Fotografia, vídeo, entrevistas, conteúdo em tempo real e materiais posteriores para ampliar a vida útil do evento.
+    - title: Depoimentos e cases
+      text: Produções orientadas por perguntas e narrativa para apresentar experiências, resultados e aprendizados autorizados.
+- discriminant: steps
+  value:
+    heading: Processo audiovisual
+    items:
+    - 'Objetivo: definimos o papel do conteúdo.'
+    - 'Conceito: construímos a ideia e a linguagem.'
+    - 'Pré-produção: organizamos roteiro, equipe, cronograma e logística.'
+    - 'Produção: realizamos a captação de imagem e som.'
+    - 'Pós-produção: editamos, tratamos, legendamos e finalizamos.'
+    - 'Desdobramentos: adaptamos os ativos para os canais e etapas da jornada.'
+- discriminant: statement
+  value:
+    heading: Uma produção, diferentes ativos
+    paragraphs:
+    - Quando faz sentido, planejamos a diária para gerar filme principal, cortes, teasers, versões para anúncios, fotografias, depoimentos, trechos para redes sociais e materiais de apresentação.
+ctaTitle: Seu próximo vídeo precisa começar pelo roteiro — ou pelo problema que ele deve resolver?
+ctaLabel: Planejar uma produção
+faq:
+- question: A Fuse realiza projetos audiovisuais pontuais?
+  answer: Sim. A Fuse pode realizar vídeos, fotografias, podcasts, motion ou coberturas específicas. Mesmo em projetos pontuais, o trabalho começa pela compreensão do objetivo e da utilização do material.
+- question: A Fuse atende fora do ABC Paulista?
+  answer: Sim. A Fuse atende projetos em diferentes regiões do Brasil. A logística e os custos de deslocamento são definidos conforme cada produção.
+- question: É possível transformar uma diária em vários conteúdos?
+  answer: Sim. Quando o projeto permite, a pré-produção é planejada para ampliar o aproveitamento da captação e gerar diferentes formatos.
+related:
+- marketing
+- estrategia

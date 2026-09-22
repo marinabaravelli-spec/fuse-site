@@ -1,0 +1,192 @@
+seo:
+  title: Política de Privacidade | Fuse
+  description: Conheça como a Fuse coleta, usa e protege seus dados pessoais de acordo com a LGPD.
+
+title: Política de Privacidade
+lastUpdated: "22 de setembro de 2026"
+intro: |
+  A Fuse — Agência de Marketing, Produtora Audiovisual e Tecnologia ("Fuse", "nós", "nosso") respeita sua privacidade e está comprometida com a proteção de seus dados pessoais. Esta Política de Privacidade descreve como coletamos, usamos, armazenamos e protegemos suas informações ao acessar nosso site (hubfuse.com.br) e serviços relacionados.
+
+sections:
+  - id: "dados-que-coletamos"
+    title: "1. Dados que Coletamos"
+    subsections:
+      - title: "1.1 Dados fornecidos por você"
+        content: |
+          Ao preencher o formulário de contato, você nos fornece:
+
+          - Nome completo
+          - Nome da empresa
+          - Cargo/posição
+          - E-mail corporativo
+          - Telefone/WhatsApp
+          - Cidade e estado
+          - Site da empresa
+          - Principal desafio ou necessidade
+          - Solução de maior interesse
+          - Como conheceu a Fuse
+          - Consentimento LGPD
+
+          Todos os campos marcados como obrigatórios são necessários para processar sua solicitação de contato.
+
+      - title: "1.2 Dados coletados automaticamente"
+        content: |
+          Quando você visita nosso site, coletamos automaticamente:
+
+          - **Informações de navegação:** páginas visitadas, tempo gasto, cliques, formulários iniciados
+          - **Informações de origem:** de onde você veio (busca orgânica, anúncio, rede social, referência)
+          - **Identificadores de campanha:** UTM source, medium, campaign, term e content
+          - **Identificadores de anúncios:** Google Ads (gclid) e Meta Ads (fbclid), quando aplicável
+          - **Informações técnicas:** navegador, sistema operacional, dispositivo, endereço IP (anônimo via GA4)
+          - **Cookies:** identificadores de sessão, preferências de navegação
+
+          Essas informações são coletadas através de **Google Analytics 4** (GA4) e ferramentas de medição similares.
+
+  - id: "como-usamos-dados"
+    title: "2. Como Usamos seus Dados"
+    subsections:
+      - title: "2.1 Gestão de leads"
+        content: |
+          - Receber e processar sua solicitação de contato
+          - Enviar um diagnóstico inicial ou proposta
+          - Manter contato sobre soluções relevantes à sua empresa
+
+      - title: "2.2 Melhoria do site"
+        content: |
+          - Entender como você usa o site e quais páginas são mais acessadas
+          - Otimizar conteúdo, design e experiência de navegação
+          - Identificar e resolver problemas técnicos
+
+      - title: "2.3 Comunicação"
+        content: |
+          - Responder suas perguntas e solicitações
+          - Enviar atualizações sobre serviços (apenas se consentir)
+
+      - title: "2.4 Compliance legal"
+        content: |
+          - Cumprir obrigações legais e regulatórias, incluindo a Lei Geral de Proteção de Dados (LGPD)
+
+          **Não vendemos, alugamos ou compartilhamos seus dados pessoais com terceiros para fins comerciais.**
+
+  - id: "base-legal"
+    title: "3. Base Legal para Processamento"
+    content: |
+      O processamento de seus dados é justificado por:
+
+      - **Consentimento:** você consente ao preencher o formulário de contato
+      - **Interesse legítimo:** melhorar o site e entender o comportamento dos visitantes
+      - **Interesse contratual:** processar sua solicitação de proposta ou contato
+      - **Obrigação legal:** conformidade com leis aplicáveis
+
+  - id: "armazenamento"
+    title: "4. Armazenamento de Dados"
+    subsections:
+      - title: "4.1 Período de retenção"
+        content: |
+          - **Leads de contato:** mantemos por até **24 meses** após o último contato
+          - **Dados de navegação (GA4):** automático, conforme política do Google
+          - **Cookies:** depende do tipo; sessão (até 24h) ou persistentes (até 1 ano)
+
+          Após este período, seus dados são automaticamente deletados de nossos sistemas, a menos que haja obrigação legal para retenção mais longa.
+
+      - title: "4.2 Segurança"
+        content: |
+          - Seus dados são armazenados em servidores seguros com criptografia
+          - Acesso restrito apenas a colaboradores autorizados da Fuse que precisam desses dados para atender sua solicitação
+          - Planilha Google Sheets com acesso limitado a emails específicos
+
+  - id: "seus-direitos"
+    title: "5. Seus Direitos (LGPD)"
+    content: |
+      Conforme a Lei Geral de Proteção de Dados, você tem direito a:
+
+      - **Acessar** seus dados pessoais a qualquer momento
+      - **Corrigir** dados incompletos ou inexatos
+      - **Deletar** seus dados ("direito ao esquecimento")
+      - **Solicitar portabilidade** de seus dados
+      - **Retirar consentimento** para processamento futuro
+      - **Contestar** processamento de dados
+
+      Para exercer qualquer desses direitos, envie um e-mail para **marina.baravelli@hubfuse.com.br** com:
+      - Seu nome completo
+      - Descrição clara do seu pedido
+      - Cópia de um documento de identificação
+
+      Responderemos em até **30 dias**.
+
+  - id: "ferramentas-medicao"
+    title: "6. Ferramentas de Medição"
+    subsections:
+      - title: "6.1 Google Analytics 4"
+        content: |
+          - Coleta dados anônimos sobre navegação e uso do site
+          - Google não identifica você pessoalmente através do GA4
+          - Você pode desativar cookies no seu navegador ou usar extensões como Privacy Badger
+          - Política de privacidade do Google: google.com/policies/privacy
+
+      - title: "6.2 Cookies"
+        content: |
+          O site usa cookies para:
+          - Manter sua sessão (cookies de sessão)
+          - Lembrar preferências de navegação
+          - Medir uso do site (GA4)
+
+          Você pode configurar seu navegador para recusar ou avisar sobre cookies.
+
+  - id: "compartilhamento"
+    title: "7. Compartilhamento de Dados"
+    subsections:
+      - title: "7.1 Dentro da Fuse"
+        content: |
+          Seus dados são acessados apenas por colaboradores da Fuse que precisam deles para:
+          - Atender sua solicitação de contato
+          - Analisar demanda e planejar estratégia
+
+      - title: "7.2 Com terceiros"
+        content: |
+          Compartilhamos dados com:
+
+          - **Google Apps Script & Google Sheets:** para armazenar suas informações de contato
+          - **Ferramentas de medição (GA4):** para análise anônima de navegação
+          - **Provedores de hospedagem (Netlify):** para manter o site seguro
+
+          Nenhum terceiro pode usar seus dados para fins diferentes dos acordados com a Fuse.
+
+      - title: "7.3 Proteção de dados"
+        content: |
+          Exigimos que qualquer terceiro que tenha acesso aos seus dados respeite o mesmo nível de confidencialidade.
+
+  - id: "links-terceiros"
+    title: "8. Links para Terceiros"
+    content: |
+      O site pode conter links para redes sociais (LinkedIn, Instagram) e plataformas externas. A Fuse não é responsável pelas políticas de privacidade desses sites. Recomendamos ler suas políticas antes de compartilhar informações.
+
+  - id: "contato"
+    title: "9. Contato para Questões de Privacidade"
+    content: |
+      Se tiver dúvidas sobre esta Política de Privacidade ou como seus dados são tratados, entre em contato:
+
+      **E-mail:** marina.baravelli@hubfuse.com.br  
+      **Telefone/WhatsApp:** (11) 98215-9171  
+      **Site:** hubfuse.com.br
+
+      Também pode acessar https://hubfuse.com.br/contato para enviar sua mensagem.
+
+  - id: "alteracoes"
+    title: "10. Alterações a Esta Política"
+    content: |
+      A Fuse pode atualizar esta Política de Privacidade periodicamente. Quando fizer alterações significativas, notificaremos através do site.
+
+      Última atualização: **22 de setembro de 2026**
+
+  - id: "consentimento"
+    title: "Confirmação de Consentimento"
+    content: |
+      Ao preencher e enviar o formulário de contato, você confirma que:
+
+      ✓ Leu e compreendeu esta Política de Privacidade  
+      ✓ Concorda com o processamento de seus dados conforme descrito  
+      ✓ Autoriza a Fuse a entrar em contato para apresentar soluções  
+      ✓ Entende que seus dados serão armazenados por até 24 meses  
+
+      Você pode revogar este consentimento a qualquer momento enviando um e-mail para marina.baravelli@hubfuse.com.br.

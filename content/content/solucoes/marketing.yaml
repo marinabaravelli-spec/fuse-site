@@ -1,0 +1,56 @@
+name: Marketing
+order: 2
+summary: Conteúdo, mídia, SEO, landing pages, automações e geração de demanda para aproximar a empresa das pessoas certas.
+pillarSummary: Conectamos conteúdo, mídia, SEO, landing pages, automações e geração de demanda à jornada de compra e à operação comercial.
+linkLabel: Conhecer Marketing
+seo:
+  title: Agência de Marketing B2B e Geração de Demanda | Fuse
+  description: Marketing digital, conteúdo, mídia, SEO, landing pages e automação conectados à estratégia e à geração de demanda da sua empresa.
+title: Marketing para gerar clareza, demanda e oportunidades.
+intro:
+- Marketing não é apenas publicar, anunciar ou produzir mais.
+- É construir uma presença capaz de explicar o valor da empresa, atrair as pessoas certas, criar confiança e apoiar o processo de decisão.
+- A Fuse combina estratégia, conteúdo, mídia, SEO, landing pages, automação e análise para organizar uma operação de marketing conectada aos objetivos do negócio.
+sections:
+- discriminant: offerings
+  value:
+    heading: Frentes de atuação
+    items:
+    - title: Conteúdo e social media
+      text: Planejamento editorial, narrativas, textos, peças, vídeos e conteúdos que tornam a marca mais relevante e compreensível.
+    - title: Mídia de performance
+      text: Planejamento, criação, configuração, acompanhamento e otimização de campanhas em Google, Meta e LinkedIn, conforme o objetivo e o público.
+    - title: SEO e conteúdo orgânico
+      text: Arquitetura de informação, páginas de serviço, artigos, otimização on-page e conteúdo construído para responder intenções reais de busca.
+    - title: Landing pages
+      text: Páginas de campanha e conversão com mensagem, prova, estrutura e formulário alinhados à jornada do público.
+    - title: Geração de demanda
+      text: Integração entre posicionamento, conteúdo, mídia, conversão, relacionamento e operação comercial.
+    - title: Automação e relacionamento
+      text: Organização de fluxos, segmentações, comunicações e processos para reduzir trabalho manual e melhorar a continuidade da jornada.
+- discriminant: list
+  value:
+    heading: O que muda quando o marketing está conectado
+    intro: ''
+    items:
+    - O conteúdo parte de uma mensagem central
+    - A mídia leva pessoas para uma experiência coerente
+    - A landing page responde à promessa do anúncio
+    - O lead chega com contexto para o comercial
+    - Os dados ajudam a decidir o próximo teste
+    - Cada ativo pode ser reaproveitado em diferentes canais
+ctaTitle: Seu marketing precisa de mais ações ou de mais direção?
+ctaLabel: Conversar sobre marketing
+faq:
+- question: A Fuse trabalha com redes sociais?
+  answer: Sim. A Fuse pode planejar e produzir conteúdo para redes sociais, desde que essa frente esteja conectada ao posicionamento, à comunicação e aos objetivos da empresa.
+- question: A Fuse gerencia mídia paga?
+  answer: Sim. A atuação pode incluir planejamento, configuração, criação, acompanhamento e otimização de campanhas em diferentes plataformas.
+- question: A Fuse atende empresas B2B?
+  answer: Sim. A Fuse atua com empresas B2B e negócios com jornadas de compra mais complexas, nos quais posicionamento, autoridade e geração de demanda precisam trabalhar juntos.
+- question: A Fuse garante leads ou vendas?
+  answer: Não. A Fuse estrutura hipóteses, canais, mensagens, campanhas e processos de acompanhamento. Os resultados dependem de fatores como oferta, mercado, orçamento, operação comercial e tempo de maturação.
+related:
+- estrategia
+- tecnologia
+- inteligencia-artificial

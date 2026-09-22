@@ -1,0 +1,69 @@
+name: Inteligência Artificial
+order: 5
+summary: Consultoria, agentes e automações para aumentar produtividade, organizar conhecimento e ampliar a capacidade de marketing, vendas e operação.
+pillarSummary: Identificamos oportunidades e construímos aplicações de IA, agentes e automações para marketing, vendas, conteúdo e produtividade.
+linkLabel: Conhecer Inteligência Artificial
+seo:
+  title: Inteligência Artificial para Empresas | Fuse
+  description: Consultoria, agentes e automações de IA para marketing, vendas e produtividade, com aplicação orientada por processos e segurança.
+title: Inteligência artificial aplicada a processos reais.
+intro:
+- A inteligência artificial pode acelerar tarefas, organizar conhecimento, apoiar análises e ampliar a capacidade de uma equipe.
+- Mas uma ferramenta sem direção também pode aumentar ruído, retrabalho e risco.
+- A Fuse ajuda empresas a identificar onde a IA faz sentido, como integrá-la à rotina e quais critérios precisam acompanhar sua implementação.
+sections:
+- discriminant: list
+  value:
+    heading: Onde a IA pode gerar valor
+    intro: ''
+    items:
+    - Redução de tarefas repetitivas
+    - Apoio à pesquisa e à análise
+    - Organização e consulta de conhecimento interno
+    - Criação e revisão de conteúdos
+    - Personalização de mensagens
+    - Automação de fluxos
+    - Preparação de reuniões e propostas
+    - Qualificação de informações comerciais
+    - Criação de assistentes e agentes
+    - Capacitação das equipes
+- discriminant: offerings
+  value:
+    heading: Soluções de IA
+    items:
+    - title: Diagnóstico de oportunidades
+      text: Mapeamento de processos, tarefas, gargalos e riscos para identificar aplicações com potencial de ganho.
+    - title: Consultoria de IA aplicada
+      text: Orientação para priorização, escolha de ferramentas, desenho de processos, governança e adoção.
+    - title: Agentes de IA
+      text: Sistemas configurados com objetivo, contexto, regras e fontes para apoiar tarefas específicas.
+    - title: Automações
+      text: Integração de etapas e ferramentas para reduzir trabalho manual, organizar dados e acionar comunicações.
+    - title: IA para marketing e vendas
+      text: Aplicações para pesquisa, planejamento, conteúdo, análise de campanhas, preparação comercial, personalização e organização de conhecimento.
+- discriminant: statement
+  value:
+    heading: Automatizar um processo ruim não cria eficiência. Apenas acelera o problema.
+    paragraphs:
+    - Antes da implementação, buscamos compreender o fluxo atual, as responsabilidades, os dados utilizados e o resultado esperado.
+    - A tecnologia vem depois do problema estar claro.
+- discriminant: statement
+  value:
+    heading: Segurança e responsabilidade
+    paragraphs:
+    - Toda aplicação deve considerar informações confidenciais, dados pessoais, permissões, revisão humana, propriedade intelectual, rastreabilidade, risco de respostas incorretas e dependência de fornecedores.
+ctaTitle: Sua empresa precisa de mais ferramentas ou de processos mais claros?
+ctaLabel: Mapear oportunidades com IA
+faq:
+- question: O que é um agente de IA?
+  answer: É um sistema configurado para executar ou apoiar tarefas com base em objetivos, regras, contexto e fontes de informação. Dependendo do projeto, ele pode pesquisar, analisar, produzir, organizar ou acionar etapas de um processo.
+- question: A Fuse cria chatbots?
+  answer: A Fuse pode criar ou orientar soluções de atendimento e interação. O escopo depende dos canais, das integrações, do processo e do nível de autonomia desejado.
+- question: É seguro usar IA em empresas?
+  answer: A segurança depende das ferramentas, das configurações, dos dados e das práticas adotadas. Por isso, cada aplicação deve considerar acessos, informações sensíveis, revisão humana e governança.
+- question: A IA substitui a equipe de marketing?
+  answer: A IA pode automatizar tarefas e ampliar produtividade, mas não substitui integralmente estratégia, criatividade, relacionamento, julgamento e responsabilidade.
+related:
+- tecnologia
+- marketing
+- estrategia

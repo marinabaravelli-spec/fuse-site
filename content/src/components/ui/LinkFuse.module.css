@@ -1,0 +1,29 @@
+.link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-text);
+}
+/* trilho neutro */
+.link::after,
+/* camada com o gradiente oficial, revelada da esquerda para a direita */
+.link::before {
+  content: '';
+  position: absolute;
+  left: 0; right: 0;
+  bottom: 10px;
+  height: 1px;
+}
+.link::after { background: var(--color-line-strong); }
+.link::before {
+  z-index: 1;
+  background: var(--gradient-fuse);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .45s var(--ease-out);
+}
+.link:hover::before,
+.link:focus-visible::before { transform: scaleX(1); }

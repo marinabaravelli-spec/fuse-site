@@ -1,0 +1,79 @@
+seo:
+  title: Fuse | Agência de Marketing, Audiovisual e Tecnologia
+  description: A Fuse conecta estratégia, marketing, audiovisual e tecnologia para transformar desafios de negócio em comunicação, demanda e crescimento.
+hero:
+  eyebrow: Agência de marketing + produtora audiovisual + tecnologia
+  titleLead: Pensamos estratégia.
+  titleFused: Entregamos resultado.
+  text: A Fuse conecta marketing, audiovisual, tecnologia e inteligência artificial para transformar desafios de negócio em comunicação mais clara, oportunidades mais qualificadas e crescimento mais consistente.
+  footnote: Atendimento em todo o Brasil, com presença estratégica no ABC Paulista.
+problem:
+  label: O problema
+  title: Marketing não deveria ser um conjunto de ações desconectadas.
+  paragraphs:
+  - Uma empresa pode ter campanhas, conteúdo, mídia, vídeos, redes sociais, ferramentas e equipe comercial — e ainda assim sentir que tudo trabalha em direções diferentes.
+  - Quando a estratégia não orienta a execução, o marketing perde clareza. O conteúdo não conversa com a jornada de compra. O audiovisual não cumpre uma função definida. A tecnologia aumenta a complexidade em vez de reduzir o trabalho.
+  closingBefore: 'É nesse ponto que a Fuse atua:'
+  closingHighlight: conectando as partes
+  closingAfter: para que cada iniciativa tenha uma razão, uma função e um caminho de evolução.
+whatWeDo:
+  label: O que fazemos
+  title: Estratégia para decidir. Criação para conectar. Tecnologia para fazer acontecer.
+  intro: A Fuse integra diferentes competências em uma operação orientada por objetivos de negócio.
+method:
+  label: Método
+  title: Antes de escolher a ferramenta, entendemos o que precisa acontecer.
+  paragraphs:
+  - O trabalho da Fuse começa pelo contexto. Entendemos o momento da empresa, os objetivos, o público, o processo comercial e os gargalos que impedem a evolução.
+  - Depois, definimos a direção, construímos as soluções necessárias e acompanhamos o que os dados e a operação estão ensinando.
+  steps:
+  - title: Entender
+    text: Investigamos o negócio, o mercado, o público, os objetivos e o que já foi construído.
+  - title: Definir
+    text: Transformamos informação em prioridades, posicionamento, mensagens, canais e critérios de sucesso.
+  - title: Construir
+    text: Desenvolvemos campanhas, conteúdos, páginas, vídeos, sistemas, automações e experiências coerentes com a estratégia.
+  - title: Operar
+    text: Colocamos as frentes em movimento, acompanhamos os sinais e ajustamos o sistema com base no aprendizado.
+  ctaLabel: Conhecer a forma de trabalho da Fuse
+differential:
+  label: Diferencial
+  title: A mesma estratégia que orienta a decisão acompanha a execução.
+  intro: 'Na Fuse, planejamento, criação, mídia, audiovisual, tecnologia e inteligência artificial não são peças isoladas. Cada frente é conectada ao objetivo que precisa cumprir. Isso significa:'
+  principles:
+  - Pensar antes de produzir
+  - Produzir com uma função definida
+  - Escolher tecnologia com base no processo
+  - Conectar marketing e vendas
+  - Transformar dados em decisões
+  - Construir ativos que possam evoluir ao longo do tempo
+fit:
+  label: Para quem faz sentido
+  title: Para empresas que precisam transformar esforço em direção.
+  intro: 'A Fuse faz sentido para empresas que:'
+  items:
+  - Precisam organizar o posicionamento e a comunicação
+  - Têm soluções complexas e precisam explicar melhor seu valor
+  - Querem estruturar geração de demanda
+  - Precisam de uma operação de marketing mais integrada
+  - Desejam transformar uma produção audiovisual em diferentes ativos
+  - Precisam criar ou melhorar um site, landing page ou sistema
+  - Identificam oportunidades de automação e inteligência artificial
+  - Cresceram por indicação e agora precisam construir uma operação mais previsível
+faq:
+  label: Perguntas frequentes
+  title: O que perguntam sobre a Fuse.
+  items:
+  - question: O que é a Fuse?
+    answer: A Fuse é uma agência de marketing digital, produtora audiovisual e empresa de tecnologia. A empresa conecta estratégia, marketing, conteúdo, performance, audiovisual, sites, sistemas, automações e inteligência artificial.
+  - question: A Fuse atende quais tipos de empresa?
+    answer: A atuação é especialmente aderente a empresas B2B, tecnologia, educação, saúde, serviços profissionais e negócios que precisam comunicar soluções complexas ou estruturar melhor sua operação de marketing.
+  - question: A Fuse atende apenas empresas do ABC Paulista?
+    answer: Não. A Fuse atende empresas em todo o Brasil e possui presença estratégica no ABC Paulista e na Grande São Paulo.
+  - question: A Fuse trabalha com projetos pontuais?
+    answer: Sim. A Fuse pode assumir projetos específicos de estratégia, marketing, audiovisual, tecnologia ou inteligência artificial. Mesmo em uma entrega pontual, o trabalho começa pela compreensão do objetivo e da função do projeto.
+  - question: A Fuse promete resultados?
+    answer: A Fuse trabalha com estratégia, hipóteses, execução, acompanhamento e otimização. Não promete resultados garantidos, porque o desempenho depende de variáveis do negócio, do mercado, da oferta, da operação e da capacidade de implementação.
+finalCta:
+  title: Qual resultado sua empresa precisa construir agora?
+  text: Conte sobre o momento do negócio, o objetivo e o principal desafio. A Fuse fará uma leitura inicial para entender se existe aderência e quais frentes podem fazer sentido.

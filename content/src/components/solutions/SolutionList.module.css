@@ -1,0 +1,56 @@
+.list {
+  margin-top: clamp(48px, 6vw, 88px);
+  border-top: 1px solid var(--color-line);
+}
+.item {
+  position: relative;
+  border-bottom: 1px solid var(--color-line);
+}
+/* Linha de conexão: o gradiente oficial acende no hover/foco */
+.item::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; bottom: -1px;
+  height: 1px;
+  background: var(--gradient-fuse);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .6s var(--ease-out);
+}
+.item:hover::after,
+.item:focus-within::after { transform: scaleX(1); }
+
+.link {
+  display: grid;
+  gap: 10px;
+  padding-block: clamp(28px, 3.4vw, 44px);
+  text-decoration: none;
+}
+@media (min-width: 960px) {
+  .link {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 5fr) minmax(0, 2fr);
+    align-items: baseline;
+    gap: 40px;
+  }
+}
+.name {
+  font-size: var(--text-h3);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  transition: transform .5s var(--ease-out);
+}
+.item:hover .name { transform: translateX(10px); }
+.summary { max-width: 52ch; color: var(--color-text-muted); }
+.cta {
+  font-size: var(--text-small);
+  font-weight: 600;
+  color: var(--color-text-soft);
+  transition: color .3s;
+}
+.item:hover .cta { color: var(--fuse-green); }
+@media (min-width: 960px) { .cta { text-align: right; } }
+
+/* Variante compacta (soluções complementares) */
+.compact { margin-top: clamp(32px, 4vw, 48px); }
+.compact .link { padding-block: clamp(20px, 2.4vw, 28px); }
+.compact .name { font-size: clamp(1.25rem, 1.8vw, 1.625rem); }

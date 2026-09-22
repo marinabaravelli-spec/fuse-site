@@ -1,0 +1,65 @@
+name: Estratégia
+order: 1
+summary: Diagnóstico, posicionamento, planejamento e direção para transformar desafios complexos em prioridades claras.
+pillarSummary: Transformamos desafios de negócio em direção, posicionamento, prioridades e critérios de decisão.
+linkLabel: Conhecer Estratégia
+seo:
+  title: Estratégia de Marketing e Posicionamento | Fuse
+  description: Estratégia de marketing, posicionamento e planejamento para transformar desafios de negócio em prioridades claras e execução consistente.
+title: Estratégia que transforma complexidade em direção.
+intro:
+- Antes de pensar em campanha, canal ou formato, precisamos entender o que a empresa está tentando construir.
+- A Fuse analisa o negócio, o mercado, o público, a oferta, a jornada de compra e a operação existente para transformar desafios dispersos em escolhas mais claras.
+sections:
+- discriminant: offerings
+  value:
+    heading: O que podemos estruturar
+    items:
+    - title: Diagnóstico de marketing e crescimento
+      text: Leitura do momento atual, dos objetivos, da operação, dos canais e dos principais gargalos.
+    - title: Posicionamento e proposta de valor
+      text: Definição de como a empresa deve ser compreendida, por que importa e por que pode ser escolhida.
+    - title: Planejamento de marketing
+      text: Organização de objetivos, públicos, mensagens, canais, prioridades, cronograma e indicadores.
+    - title: Branding e identidade verbal
+      text: Construção de linguagem, mensagens, argumentos e princípios para tornar a marca mais clara e consistente.
+    - title: Estratégia de comunicação
+      text: Definição de temas, narrativas, campanhas e experiências alinhadas à jornada do público.
+    - title: Estratégia de geração de demanda
+      text: Conexão entre posicionamento, conteúdo, mídia, landing pages, relacionamento e operação comercial.
+- discriminant: steps
+  value:
+    heading: Como trabalhamos
+    items:
+    - Entendemos o contexto.
+    - Identificamos os gargalos.
+    - Definimos a direção.
+    - Organizamos prioridades.
+    - Construímos o plano de execução.
+    - Acompanhamos os aprendizados.
+- discriminant: list
+  value:
+    heading: Para quem faz sentido
+    intro: 'Esta solução faz sentido para empresas que:'
+    items:
+    - Cresceram, mas perderam clareza de posicionamento
+    - Têm muitas ações e pouca conexão entre elas
+    - Precisam organizar marketing e comunicação
+    - Estão lançando uma solução ou entrando em um novo mercado
+    - Têm dificuldade para transformar conhecimento técnico em valor percebido
+    - Querem estruturar geração de demanda
+    - Precisam de uma visão externa e sênior para tomar decisões
+ctaTitle: Antes de fazer mais, precisamos entender o que deve mudar.
+ctaLabel: Agendar diagnóstico estratégico
+faq:
+- question: O que é uma estratégia de marketing?
+  answer: É a definição de objetivos, públicos, posicionamento, mensagens, canais, prioridades e critérios de sucesso que orientam as decisões de marketing de uma empresa.
+- question: A Fuse entrega apenas um planejamento?
+  answer: Não necessariamente. A Fuse pode atuar na estratégia, na execução ou nas duas etapas. O modelo é definido conforme o contexto e a capacidade da empresa.
+- question: A estratégia inclui posicionamento?
+  answer: Pode incluir. Posicionamento, proposta de valor, identidade verbal e mensagens são avaliados quando influenciam a clareza e a capacidade de crescimento do negócio.
+related:
+- marketing
+- producao-audiovisual
+- tecnologia
+- inteligencia-artificial
