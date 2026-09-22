@@ -302,6 +302,34 @@ export default config({
         ctaText: required('CTA — texto', { multiline: true }),
       },
     }),
+
+    /* ---------- Política de Privacidade ---------- */
+    privacyPolicy: singleton({
+      label: 'Política de Privacidade',
+      path: 'content/politica-de-privacidade',
+      format: { data: 'yaml' },
+      schema: {
+        seo: seoFields,
+        title: required('Título (H1)'),
+        lastUpdated: required('Data da última atualização', { description: 'Ex: 22 de setembro de 2026' }),
+        intro: required('Introdução', { multiline: true }),
+        sections: fields.array(
+          fields.object({
+            id: required('ID da seção', { description: 'Slug único, ex: dados-que-coletamos' }),
+            title: required('Título'),
+            content: fields.text({ label: 'Conteúdo', multiline: true }),
+            subsections: fields.array(
+              fields.object({
+                title: required('Título da subseção'),
+                content: required('Conteúdo', { multiline: true }),
+              }),
+              { label: 'Subseções' },
+            ),
+          }),
+          { label: 'Seções', itemLabel: (s) => s.fields.title.value },
+        ),
+      },
+    }),
   },
 
   collections: {

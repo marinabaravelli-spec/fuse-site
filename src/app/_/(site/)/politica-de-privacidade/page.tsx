@@ -4,12 +4,13 @@ import { EditorialSection } from '@/components/ui/EditorialSection';
 import { PageHero } from '@/components/ui/PageHero';
 import { breadcrumbSchema, webPageSchema } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
-import politicaContent from '@/content/politica-de-privacidade.yaml';
+import { getPrivacyPolicyContent } from '@/lib/content';
 import styles from './page.module.css';
 
 export const revalidate = 3600;
 
 export async function generateMetadata(): Promise<Metadata> {
+  const politicaContent = await getPrivacyPolicyContent();
   return buildMetadata({
     title: politicaContent.seo.title,
     description: politicaContent.seo.description,
@@ -17,7 +18,8 @@ export async function generateMetadata(): Promise<Metadata> {
   });
 }
 
-export default function PoliticaPrivacidadePage() {
+export default async function PoliticaPrivacidadePage() {
+  const politicaContent = await getPrivacyPolicyContent();
   const crumbs = [
     { name: 'Início', path: '/' },
     { name: 'Política de Privacidade', path: '/politica-de-privacidade' },
@@ -39,15 +41,15 @@ export default function PoliticaPrivacidadePage() {
 
       <PageHero breadcrumbs={crumbs} title={politicaContent.title} intro={[]} />
 
-      <EditorialSection titleId="last-updated">
+      <EditorialSection label="" titleId="last-updated">
         <p className={styles.lastUpdated}>
           Última atualização: {politicaContent.lastUpdated}
         </p>
       </EditorialSection>
 
-      <EditorialSection titleId="intro">
+      <EditorialSection label="" titleId="intro">
         <div className={styles.intro}>
-          {politicaContent.intro.split('\n\n').map((paragraph) => (
+          {politicaContent.intro.split('\n\n').map((paragraph: string) => (
             <p key={paragraph} className={styles.paragraph}>
               {paragraph}
             </p>
@@ -55,17 +57,17 @@ export default function PoliticaPrivacidadePage() {
         </div>
       </EditorialSection>
 
-      {politicaContent.sections.map((section) => (
-        <EditorialSection key={section.id} titleId={section.id}>
+      {politicaContent.sections.map((section: any) => (
+        <EditorialSection key={section.id} label="" titleId={section.id}>
           <h2 className={`title-2 ${styles.sectionTitle}`} id={section.id} data-reveal>
             {section.title}
           </h2>
 
           {section.content && (
             <div className={styles.content}>
-              {section.content.split('\n\n').map((block, idx) => (
+              {section.content.split('\n\n').map((block: string, idx: number) => (
                 <div key={idx}>
-                  {block.split('\n').map((line, lineIdx) => {
+                  {block.split('\n').map((line: string, lineIdx: number) => {
                     if (line.match(/^- /)) {
                       return null;
                     }
@@ -92,13 +94,13 @@ export default function PoliticaPrivacidadePage() {
 
           {section.subsections && (
             <div className={styles.subsections}>
-              {section.subsections.map((subsection) => (
+              {section.subsections.map((subsection: any) => (
                 <div key={subsection.title} className={styles.subsection}>
                   <h3 className={styles.subsectionTitle}>{subsection.title}</h3>
                   <div className={styles.content}>
-                    {subsection.content.split('\n\n').map((block, idx) => (
+                    {subsection.content.split('\n\n').map((block: string, idx: number) => (
                       <div key={idx}>
-                        {block.split('\n').map((line, lineIdx) => {
+                        {block.split('\n').map((line: string, lineIdx: number) => {
                           if (line.match(/^- /)) {
                             return (
                               <li key={lineIdx} className={styles.listItem}>

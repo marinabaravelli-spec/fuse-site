@@ -1,6 +1,0 @@
-.list { display: flex; flex-wrap: wrap; gap: 6px; font-size: var(--text-small); color: var(--color-text-muted); }
-.item { display: inline-flex; align-items: center; gap: 6px; }
-.item + .item::before { content: '/'; color: var(--color-line-strong); }
-.item a { text-decoration: none; transition: color .2s; }
-.item a:hover { color: var(--color-text); }
-.item [aria-current='page'] { color: var(--color-text-soft); }

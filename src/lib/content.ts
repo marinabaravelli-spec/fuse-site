@@ -17,6 +17,7 @@ export type ContactContent = Entry<(typeof keystaticConfig)['singletons']['conta
 export type SolutionsPageContent = Entry<(typeof keystaticConfig)['singletons']['solutionsPage']>;
 export type SolutionEntry = Entry<(typeof keystaticConfig)['collections']['solutions']>;
 export type Solution = Omit<SolutionEntry, 'name'> & { slug: string; name: string; href: string };
+export type PrivacyPolicyContent = Entry<(typeof keystaticConfig)['singletons']['privacyPolicy']>;
 export type FaqItem = { question: string; answer: string };
 
 /** Falha no build se um conteúdo obrigatório sumir — nunca publica página vazia. */
@@ -32,6 +33,10 @@ export const getHomeContent = cache(async () => ensure(await reader.singletons.h
 export const getAboutContent = cache(async () => ensure(await reader.singletons.about.read(), 'sobre'));
 
 export const getContactContent = cache(async () => ensure(await reader.singletons.contact.read(), 'contato'));
+
+export const getPrivacyPolicyContent = cache(async () =>
+  ensure(await reader.singletons.privacyPolicy.read(), 'politica-de-privacidade'),
+);
 
 export const getSolutionsPage = cache(async () =>
   ensure(await reader.singletons.solutionsPage.read(), 'solucoes-pilar'),

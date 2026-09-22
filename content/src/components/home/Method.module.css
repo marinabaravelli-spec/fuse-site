@@ -1,3 +1,0 @@
-.paragraph { margin-top: 24px; }
-.paragraph + .paragraph { margin-top: 16px; }
-.cta { margin-top: clamp(56px, 6vw, 80px); }
