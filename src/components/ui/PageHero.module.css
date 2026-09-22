@@ -1,0 +1,24 @@
+.hero {
+  padding-block: clamp(40px, 7vw, 88px) clamp(64px, 9vw, 128px);
+  border-bottom: 1px solid var(--color-line);
+}
+.title {
+  max-width: 17ch;
+  margin-top: clamp(32px, 5vw, 64px);
+  font-size: clamp(2.5rem, 5.6vw, 5.5rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  font-weight: 800;
+}
+.intro {
+  display: grid;
+  gap: 16px;
+  max-width: 62ch;
+  margin-top: clamp(28px, 4vw, 48px);
+}
+@media (min-width: 960px) {
+  /* Texto alinhado à coluna de conteúdo da grade editorial (3/12 + 9/12) */
+  .intro { margin-left: calc(25% + 10px); }
+}
+.first { font-size: var(--text-lead); line-height: 1.5; color: var(--color-text); }
+.rest { color: var(--color-text-soft); }

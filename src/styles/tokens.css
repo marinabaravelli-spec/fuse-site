@@ -1,0 +1,59 @@
+/* =========================================================
+   TOKENS DE DESIGN — Fuse
+   Fonte única de verdade para cor, tipo, espaço e movimento.
+   Cores de marca = identidade oficial. Neutros = derivações do preto/branco oficiais.
+   ========================================================= */
+:root {
+  /* ---------- Marca (oficial) ---------- */
+  --fuse-violet: #9933FF;
+  --fuse-blue: #4D7FEA;   /* azul meio: transição do gradiente */
+  --fuse-green: #00E5A0;
+  --color-black: #0D0D0D;
+  --color-white: #FFFFFF;
+
+  /* Gradiente oficial: sempre roxo → azul → verde, da esquerda para a direita */
+  --gradient-fuse: linear-gradient(90deg, var(--fuse-violet) 0%, var(--fuse-blue) 50%, var(--fuse-green) 100%);
+  /* Mesma ordem, de cima para baixo (usado só quando o elemento é vertical) */
+  --gradient-fuse-vertical: linear-gradient(180deg, var(--fuse-violet) 0%, var(--fuse-blue) 50%, var(--fuse-green) 100%);
+
+  /* ---------- Superfícies ---------- */
+  --color-surface: var(--color-black);
+  --color-surface-raised: #161616;       /* derivado */
+  --color-paper: var(--color-white);
+  --color-ink: var(--color-black);
+
+  /* ---------- Texto ---------- */
+  --color-text: var(--color-white);
+  --color-text-soft: #C8C8C8;            /* derivado */
+  --color-text-muted: #8F8F8F;           /* derivado — contraste AA sobre o preto */
+  --color-text-muted-paper: #595959;     /* derivado — contraste AA sobre o branco */
+
+  /* ---------- Linhas ---------- */
+  --color-line: rgba(255, 255, 255, 0.12);
+  --color-line-strong: rgba(255, 255, 255, 0.24);
+  --color-line-paper: rgba(13, 13, 13, 0.14);
+
+  /* ---------- Tipografia (Manrope, fonte oficial) ---------- */
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --text-base: clamp(1.0625rem, 0.4vw + 0.95rem, 1.1875rem);
+  --text-small: 0.9375rem;
+  --text-lead: clamp(1.125rem, 0.9vw + 0.9rem, 1.4375rem);
+  --text-h1: clamp(2.6rem, 6vw, 6.5rem);
+  --text-h2: clamp(2rem, 4.2vw, 4rem);
+  --text-h3: clamp(1.5rem, 2.4vw, 2.25rem);
+
+  /* ---------- Espaço e layout ---------- */
+  --header-h: 72px;
+  --gutter: clamp(20px, 5vw, 64px);
+  --container: 1320px;
+  --section-y: clamp(96px, 13vw, 184px);
+
+  /* ---------- Movimento ---------- */
+  --ease-out: cubic-bezier(0.2, 0.7, 0.1, 1);
+
+  /* Breakpoints (CSS não aceita variáveis em media queries — usar os valores):
+     md = 760px | lg = 960px | xl = 1100px */
+
+  color-scheme: dark;
+}

@@ -1,0 +1,83 @@
+.section {
+  padding-block: clamp(72px, 9vw, 128px);
+  border-bottom: 1px solid var(--color-line);
+}
+
+/* Mesma grade editorial do site (3/12 + 9/12): título fixo ao rolar no desktop */
+.layout { display: grid; gap: clamp(20px, 3vw, 40px); }
+@media (min-width: 960px) {
+  .layout { grid-template-columns: minmax(0, 3fr) minmax(0, 9fr); align-items: start; }
+  .heading { position: sticky; top: calc(var(--header-h) + 32px); }
+}
+.heading {
+  max-width: 14ch;
+  font-size: clamp(1.5rem, 2.1vw, 2rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+}
+
+/* ---------- Serviços ---------- */
+.offerings {
+  display: grid;
+  gap: 0 48px;
+  border-top: 1px solid var(--color-line);
+}
+@media (min-width: 760px) { .offerings { grid-template-columns: 1fr 1fr; } }
+.offerings li { padding: 28px 0 32px; border-bottom: 1px solid var(--color-line); }
+.offerTitle {
+  font-size: clamp(1.1875rem, 1.5vw, 1.375rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+}
+.offerTitle::before {
+  /* ponto de conexão no gradiente oficial */
+  content: '';
+  display: block;
+  width: 24px; height: 2px;
+  margin-bottom: 16px;
+  background: var(--gradient-fuse);
+}
+.offerText { margin-top: 10px; color: var(--color-text-soft); }
+
+/* ---------- Processo ---------- */
+.steps { border-top: 1px solid var(--color-line); }
+.steps li {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  align-items: baseline;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--color-line);
+  font-size: clamp(1.125rem, 1.4vw, 1.3125rem);
+  font-weight: 600;
+}
+.stepIndex {
+  font-size: .875rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--fuse-green);
+}
+
+/* ---------- Lista simples ---------- */
+.listIntro { margin-bottom: 20px; font-size: var(--text-lead); color: var(--color-text); }
+.list { display: grid; column-gap: 48px; }
+@media (min-width: 760px) { .list { grid-template-columns: 1fr 1fr; } }
+.list li {
+  position: relative;
+  padding: 18px 0 18px 28px;
+  border-bottom: 1px solid var(--color-line);
+  color: var(--color-text-soft);
+}
+.list li::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 1.55em;
+  width: 12px; height: 2px;
+  background: var(--gradient-fuse);
+}
+
+/* ---------- Texto em destaque ---------- */
+.statement { background: var(--color-surface-raised); }
+.statementTitle { max-width: 22ch; }
+.statementBody { display: grid; gap: 16px; margin-top: clamp(28px, 4vw, 44px); }
+@media (min-width: 960px) { .statementBody { margin-left: calc(25% + 10px); } }

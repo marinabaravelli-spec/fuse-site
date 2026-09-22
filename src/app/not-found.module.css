@@ -1,0 +1,16 @@
+.wrap {
+  min-height: calc(80svh - var(--header-h));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 28px;
+  padding-block: 96px;
+}
+.title {
+  max-width: 14ch;
+  font-size: var(--text-h1);
+  line-height: 1;
+  letter-spacing: -0.04em;
+  font-weight: 800;
+}
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px; }
