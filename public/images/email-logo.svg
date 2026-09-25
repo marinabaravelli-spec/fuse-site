@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" fill="white"/>
+  
+  <!-- Envelope -->
+  <path d="M30 60H170V140H30V60Z" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+  
+  <!-- Flap -->
+  <path d="M30 60L100 110L170 60" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+  
+  <!-- Inner line -->
+  <path d="M100 110V140" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
