@@ -1,7 +1,14 @@
 import type { NextConfig } from 'next';
 
+// Tipo de deploy do Netlify (production, deploy-preview, branch-deploy…).
+// Gravado no build para que robots, meta robots e cabeçalhos usem o mesmo valor.
+const deployContext = process.env.CONTEXT || 'local';
+const isIndexable = deployContext === 'production';
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+
+  env: { DEPLOY_CONTEXT: deployContext },
   poweredByHeader: false,
 
   images: {
@@ -24,6 +31,9 @@ const nextConfig: NextConfig = {
           { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
           { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
           { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
+          // Prévias e deploys de branch: bloqueio de indexação também no cabeçalho HTTP
+          // (cobre arquivos que não são HTML, como imagens, llms.txt e sitemap).
+          ...(isIndexable ? [] : [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }]),
         ],
       },
     ];

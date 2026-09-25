@@ -1,18 +1,14 @@
 import type { Metadata, Viewport } from 'next';
 import { site } from '@/content/site';
+import { isIndexable } from '@/lib/indexing';
 import { manrope } from './fonts';
 import './globals.css';
-
-// Previews da Vercel e ambientes locais nunca são indexados
-const isProduction = process.env.VERCEL_ENV
-  ? process.env.VERCEL_ENV === 'production'
-  : process.env.NODE_ENV === 'production';
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: { default: 'Fuse | Pensamos estratégia. Entregamos resultado.', template: `%s | ${site.name}` },
   applicationName: site.name,
-  robots: isProduction ? { index: true, follow: true } : { index: false, follow: false },
+  robots: isIndexable ? { index: true, follow: true } : { index: false, follow: false },
   formatDetection: { telephone: false },
 };
 

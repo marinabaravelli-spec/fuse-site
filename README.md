@@ -35,7 +35,7 @@ npm run typecheck  # checagem de tipos
 4. Em **Settings → Domains**, adicione `hubfuse.com.br` e `www.hubfuse.com.br` e defina o redirect de `www` → domínio sem www.
 5. No Cloudflare (DNS), aponte os registros conforme a Vercel indicar. Use proxy **desligado** (nuvem cinza) nos registros da Vercel.
 
-Previews da Vercel ficam automaticamente com `noindex` e `robots.txt` bloqueado.
+**Indexação:** só o deploy de produção do Netlify é indexável. Deploy previews, branch deploys e builds locais saem com `noindex` (meta robots + cabeçalho `X-Robots-Tag`) e `robots.txt` bloqueado. A regra usa a variável `CONTEXT` do Netlify — ver `src/lib/indexing.ts`.
 
 ## Painel de conteúdo (Keystatic)
 
@@ -122,14 +122,17 @@ Envia para uma planilha Google e dispara e-mail de aviso. Configuração complet
 - **Sem JS, o site funciona inteiro:** a classe `.js` só é adicionada no navegador; animações de entrada nunca escondem conteúdo de buscadores/LLMs.
 - **Uma cor funcional:** o verde oficial é a cor de botão e foco. O roxo fica restrito a gradientes e textos grandes (contraste insuficiente em texto pequeno sobre o preto).
 - **Gradiente oficial é imutável:** `--gradient-fuse` (#9933FF → #4D7FEA → #00E5A0, esquerda → direita). Nunca redefinir por componente.
+- **Indexação por contexto de deploy:** `CONTEXT` do Netlify é gravado no build (`next.config.ts` → `DEPLOY_CONTEXT`); só `production` é indexável.
+- **Clientes no código:** lista em `src/content/clients.ts`, usada na Home e no `/llms.txt`.
 - **JSON-LD só com dados reais:** campos `undefined` são omitidos automaticamente.
 
 ## Pendências de conteúdo
 
 - [ ] Logo oficial em SVG (o atual é vetorizado do PNG — `src/components/brand/logo-path.ts`)
-- [ ] Ícone oficial (favicon) — `src/app/icon.svg`
+- [x] Favicon com o logo completo: `src/app/icon.svg` (vetorial), `favicon.ico` (16/32/48) e `apple-icon.png` (180)
 - [ ] E-mail comercial público e perfis oficiais — painel → Configurações da Fuse
 - [ ] Liderança (opcional): preencher em Configurações da Fuse → Liderança e ligar "Exibir seção de liderança" em A Fuse (Sobre)
 - [ ] Configurar planilha de leads — `docs/leads-planilha.md`
-- [ ] Política de Privacidade (o formulário já aponta para `/politica-de-privacidade`)
+- [x] Política de Privacidade publicada em `/politica-de-privacidade` (pendente revisão jurídica)
+- [x] Logos de clientes em alta resolução, versão preta (`public/images/clients/`)
 - [ ] Cases autorizados

@@ -1,38 +1,37 @@
-'use client';
-
 import Image from 'next/image';
+import { EditorialSection } from '@/components/ui/EditorialSection';
+import { clients } from '@/content/clients';
 import styles from './Clients.module.css';
 
-const clients = [
-  { id: 'saint-gobain', name: 'Saint-Gobain', src: '/images/clients/saint-gobain.png' },
-  { id: 'token-nation', name: 'Token Nation', src: '/images/clients/token-nation.png' },
-  { id: 'vereda', name: 'Vereda', src: '/images/clients/vereda.png' },
-  { id: 'abc-founders', name: 'ABC Founders', src: '/images/clients/abc-founders.png' },
-  { id: 'clube-executivos', name: 'Clube dos Executivos', src: '/images/clients/clube-executivos.png' },
-];
+/**
+ * Equilíbrio óptico: logos largos (ex.: Token Nation) ganham mais largura,
+ * mas não na proporção total — senão ficariam gigantes e os compactos, minúsculos.
+ * Expoente 0 = todos com a mesma largura; 1 = todos com a mesma altura.
+ */
+const OPTICAL_EXPONENT = 0.6;
 
 export function Clients() {
   return (
-    <section className={styles.section} data-reveal>
-      <div className={styles.container}>
-        <h2 className="title-2">Clientes que confiam no nosso método</h2>
+    <EditorialSection label="Clientes" titleId="clientes-title" tone="paper">
+      <h2 id="clientes-title" className="title-2" data-reveal>Clientes que confiam no nosso método</h2>
 
-        <div className={styles.grid}>
-          {clients.map((client) => (
-            <div key={client.id} className={styles.logoWrapper}>
+      <ul className={styles.row}>
+        {clients.map((client) => {
+          const ratio = client.width / client.height;
+          return (
+            <li key={client.id} className={styles.item} style={{ flexGrow: Math.pow(ratio, OPTICAL_EXPONENT) }}>
               <Image
                 src={client.src}
-                alt={`Logo ${client.name}`}
-                width={180}
-                height={120}
-                quality={90}
-                priority={false}
-                loading="lazy"
+                alt={client.name}
+                width={client.width}
+                height={client.height}
+                sizes="(min-width: 960px) 220px, 25vw"
+                className={styles.logo}
               />
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+            </li>
+          );
+        })}
+      </ul>
+    </EditorialSection>
   );
 }
