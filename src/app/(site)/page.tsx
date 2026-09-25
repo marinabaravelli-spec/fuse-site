@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Clients } from '@/components/home/Clients';
 import { Differential } from '@/components/home/Differential';
 import { Faq } from '@/components/home/Faq';
 import { FinalCta } from '@/components/home/FinalCta';
@@ -29,6 +30,7 @@ export default async function HomePage() {
       <Problem content={home.problem} />
       <Solutions content={home.whatWeDo} solutions={solutions} />
       <Method content={home.method} />
+      <Clients />
       <Differential content={home.differential} />
       <Fit content={home.fit} />
       {/* Cases: entra aqui quando features.showCases = true */}
